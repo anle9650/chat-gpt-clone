@@ -58,6 +58,7 @@ function App() {
           content: message.content,
         },
       ]);
+      setValue("");
     }
   }, [message, currentTitle]);
 
